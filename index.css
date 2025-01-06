@@ -1,0 +1,44 @@
+/* Setting background color and text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Styling a container with padding, border, and a shadow */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling buttons with hover effect */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Centering text and making it bold */
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
